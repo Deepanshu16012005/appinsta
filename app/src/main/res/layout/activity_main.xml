@@ -42,13 +42,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right">
-                <ImageButton
+                <ImageView
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:src="@drawable/heart"
                     android:layout_marginEnd="10dp"
                     android:background="@color/white"/>
-                <ImageButton
+                <ImageView
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:src="@drawable/send"
@@ -257,7 +257,8 @@
             app:layout_constraintTop_toBottomOf="@+id/divider"
             android:orientation="vertical"
             android:layout_marginStart="5dp"
-            android:layout_marginEnd="10dp">
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp">
             <!--    post_header-->
             <RelativeLayout
                 android:layout_width="match_parent"
